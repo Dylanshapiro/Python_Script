@@ -16,7 +16,7 @@ def is_match(word):
     return False
 
 
-lst = find_match(is_match,'EqSolverProduction/Utilities/words.txt')
+lst = find_match(is_match,'words.txt')
 print (lst)
 
 def is_palindrome(word):
@@ -31,7 +31,7 @@ def is_palindrome(word):
         right_pos -= 1
     return True
 
-lst = find_match(is_palindrome,'EqSolverProduction/Utilities/words.txt')
+lst = find_match(is_palindrome,'words.txt')
 print (lst)
 
 def is_all_vowels(word):
@@ -42,5 +42,5 @@ def is_all_vowels(word):
         
     return True
 
-lst = find_match(is_all_vowels,'EqSolverProduction/Utilities/words.txt')
+lst = find_match(is_all_vowels,'words.txt')
 print (lst)
